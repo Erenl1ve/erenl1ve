@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımda|erenl1ve</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <nav>
+        <div class="logo">
+            <a href="home.html">
+                <img src="E.jpg" alt="">
+            </a>
+        </div>
+        <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="home.html" class="nav-link">Ana Sayfa</a></li>
+            <li><a href="about.html" class="nav-link active">Hakkımda</a></li>
+            <li><a href="skills.html" class="nav-link">Yetenekler</a></li>
+            <li><a href="projects.html" class="nav-link">Projeler</a></li>
+            <li><a href="contact.html" class="nav-link">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" data-aos="fade-up">
+        <h2 class="glitch" data-text="Hakkımda">Hakkımda</h2>
+        <div class="about-content">
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="E.jpg" alt="Eren's Profile" class="profile-image">
+                    <div class="image-overlay"></div>
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3>Ben Kimim?</h3>
+                    <p>Merhaba! Ben Eren, yazılım geliştiricisi ve problem çözücüyüm. Modern web teknolojileri konusunda kendimi geliştiriyorum.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-code"></i>
+                            <h4>Kod Tutkusu</h4>
+                            <p>Temiz ve etkili kod yazmaya özen gösteriyorum</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-lightbulb"></i>
+                            <h4>Yaratıcı Çözümler</h4>
+                            <p>Her probleme özgün yaklaşımlar geliştiriyorum</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <h4>Takım Çalışması</h4>
+                            <p>İşbirliği ve iletişime önem veriyorum</p>
+                        </div>
+                    </div>
+
+                    <div class="stats" data-aos="zoom-in">
+                        <div class="stat">
+                            <span class="number">3+</span>
+                            <span class="label">Tamamlanacak Proje</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">3+</span>
+                            <span class="label">Yıl Deneyim</span>
+                        </div>
+                    </div>
+
+                    <div class="tech-stack">
+                        <h3>Tercih Ettiğim Teknolojiler</h3>
+                        <div class="tech-icons">
+                            <i class="fab fa-html5" title="HTML5"></i>
+                            <i class="fab fa-css3-alt" title="CSS3"></i>
+                            <i class="fab fa-js" title="JavaScript"></i>
+                            <i class="fab fa-react" title="React"></i>
+                            <i class="fab fa-node" title="Node.js"></i>
+                            <i class="fab fa-python" title="Python"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Erenl1ve. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

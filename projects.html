@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeler|erenl1ve</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <nav>
+        <div class="logo">
+            <a href="home.html">
+                <img src="E.jpg" alt="">
+            </a>
+        </div>
+        <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="home.html" class="nav-link">Ana Sayfa</a></li>
+            <li><a href="about.html" class="nav-link">Hakkımda</a></li>
+            <li><a href="skills.html" class="nav-link">Yetenekler</a></li>
+            <li><a href="projects.html" class="nav-link active">Projeler</a></li>
+            <li><a href="contact.html" class="nav-link">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <section id="projects" data-aos="fade-up">
+        <h2 class="glitch" data-text="Projelerim">Projelerim</h2>
+        <div class="projects-grid">
+            <div class="project-card" data-aos="flip-left">
+                <div class="project-image">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_1280.png" alt="Project">
+                    <div class="project-overlay">
+                        <a href="https://replit.com/@BurasiAmong/SMS-BOMBER" class="view-project">Projeyi Görüntüle</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Sms-Bomber</h3>
+                    <p>Eğlenmek İçin Güzel Şey Yasal Değildir Bilginize.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>SMS API</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card" data-aos="flip-left" data-aos-delay="100">
+                <div class="project-image">
+                    <img src="download.png" alt="Discord Bot">
+                    <div class="project-overlay">
+                        <a href="javascript:void(0)" class="view-project">Yakında</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Discord Müzik Bot</h3>
+                    <p>Gelişmiş özelliklere sahip Discord müzik botu. Yüksek kaliteli ses desteği.</p>
+                    <div class="project-tech">
+                        <span>Node.js</span>
+                        <span>Discord.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="flip-left" data-aos-delay="200">
+                <div class="project-image">
+                    <img src="https://cdn.pixabay.com/photo/2015/02/24/15/41/blog-647013_1280.jpg" alt="Blog Platform">
+                    <div class="project-overlay">
+                        <a href="javascript:void(0)" class="view-project">Yakında</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Blog Platform</h3>
+                    <p>Modern ve kullanıcı dostu blog yönetim sistemi. Özelleştirilebilir temalar.</p>
+                    <div class="project-tech">
+                        <span>Vue.js</span>
+                        <span>Express</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Erenl1ve. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
